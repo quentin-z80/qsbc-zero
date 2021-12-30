@@ -505,11 +505,9 @@
           "/PMIC/VDIG",
           "/PMIC/VSNVS_3V",
           "/PMIC/VSYS",
-          "/USB/USB_VBUS",
           "DCDC_3V3",
           "DDR_1V35",
           "DDR_VREF",
-          "GND",
           "LDO2_3V3",
           "SD_3V3_1V8",
           "VDD_ARM_SOC_IN",
@@ -616,6 +614,14 @@
     [
       "cb8cc18e-c9c1-42e7-8199-25465996d953",
       "Boot Configuration"
+    ],
+    [
+      "db556edc-c566-4af9-9348-dd91620a33ca",
+      "VIN"
+    ],
+    [
+      "0457cd5f-fc7f-4526-98b3-5a183029e08f",
+      "Ethernet"
     ]
   ],
   "text_variables": {}
