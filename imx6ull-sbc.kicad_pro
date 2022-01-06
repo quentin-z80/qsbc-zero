@@ -132,7 +132,11 @@
         0.2,
         0.254,
         0.4,
-        0.5
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        3.0
       ],
       "via_dimensions": [
         {
@@ -500,19 +504,7 @@
           "/IMX6ULL Power/NVCC_PLL_OUT",
           "/IMX6ULL Power/VDD_ARM_CAP",
           "/IMX6ULL Power/VDD_SNVS_CAP",
-          "/IMX6ULL Power/VDD_SOC_CAP",
-          "/PMIC/VCORE",
-          "/PMIC/VDIG",
-          "/PMIC/VSNVS_3V",
-          "/PMIC/VSYS",
-          "DCDC_3V3",
-          "DDR_1V35",
-          "DDR_VREF",
-          "LDO2_3V3",
-          "SD_3V3_1V8",
-          "VDD_ARM_SOC_IN",
-          "VDD_HIGH_CAP",
-          "VSYS_5V"
+          "/IMX6ULL Power/VDD_SOC_CAP"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -585,7 +577,7 @@
     ],
     [
       "8526cf4d-dcc1-4418-b051-6f5b18e2eade",
-      "PMIC"
+      "Power"
     ],
     [
       "df216617-d1af-4c5e-93c5-b1837e781403",
@@ -610,10 +602,6 @@
     [
       "ed3c1fe6-129f-450c-8aa8-14886c123fc5",
       "Storage"
-    ],
-    [
-      "cb8cc18e-c9c1-42e7-8199-25465996d953",
-      "Boot Configuration"
     ],
     [
       "db556edc-c566-4af9-9348-dd91620a33ca",
