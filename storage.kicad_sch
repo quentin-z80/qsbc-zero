@@ -3087,7 +3087,7 @@
 
   (no_connect (at 252.73 115.57) (uuid 6c56d383-862b-46a1-b15e-a08dd24131e2))
   (no_connect (at 223.52 219.71) (uuid fe2bb00d-1562-4ee4-9c4c-29159e42c337))
-  (no_connect (at 223.52 224.79) (uuid fe2bb00d-1562-4ee4-9c4c-29159e42c337))
+  (no_connect (at 223.52 224.79) (uuid fe2bb00d-1562-4ee4-9c4c-29159e42c338))
 
   (wire (pts (xy 29.21 24.13) (xy 41.91 24.13))
     (stroke (width 0) (type default) (color 0 0 0 0))

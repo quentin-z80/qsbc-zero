@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.2,
+          "height": 0.4,
+          "width": 0.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.127
+          "min_clearance": 0.308
         }
       },
       "diff_pair_dimensions": [
@@ -460,7 +460,15 @@
           "/DDR/DRAM_SDQS1_N",
           "/DDR/DRAM_SDQS1_P",
           "/DDR/DRAM_WE_B",
-          "/DDR/DRAM_ZQPAD"
+          "/DDR/DRAM_ZQPAD",
+          "/Ethernet/RJ45_RD_N",
+          "/Ethernet/RJ45_RD_P",
+          "/Ethernet/RJ45_TD_N",
+          "/Ethernet/RJ45_TD_P",
+          "/USB/CC1",
+          "/USB/CC2",
+          "USB1_ID",
+          "~{USB1_INT}"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -480,8 +488,10 @@
         "microvia_drill": 0.1,
         "name": "90R",
         "nets": [
-          "/USB/USBD_N",
-          "/USB/USBD_P"
+          "/USB/USB1D_N",
+          "/USB/USB1D_P",
+          "/USB/USB2D_N",
+          "/USB/USB2D_P"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -504,7 +514,25 @@
           "/IMX6ULL Power/NVCC_PLL_OUT",
           "/IMX6ULL Power/VDD_ARM_CAP",
           "/IMX6ULL Power/VDD_SNVS_CAP",
-          "/IMX6ULL Power/VDD_SOC_CAP"
+          "/IMX6ULL Power/VDD_SOC_CAP",
+          "/Power/DCDC_3V3_R",
+          "/Power/DDR_1V35_R",
+          "/Power/LDO_1V8_R",
+          "/Power/LDO_3V3_R",
+          "/Power/SD_3V3_1V8_R",
+          "/Power/VDD_ARM_SOC_IN_R",
+          "/Power/VDD_SNVS_3V3",
+          "/Storage/VDDI",
+          "/USB/VBUS_1",
+          "DCDC_3V3",
+          "DDR_1V35",
+          "GND",
+          "LDO_1V8",
+          "LDO_3V3",
+          "SD_3V3_1V8",
+          "VDD_ARM_SOC_IN",
+          "VDD_HIGH_CAP",
+          "VSYS_5V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
