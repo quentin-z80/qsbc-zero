@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.308
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -372,12 +372,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "imx6ull-sbc"
+      "qsbc-zero"
     ],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "imx6ull-sbc.kicad_pro",
+    "filename": "qsbc-zero.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -511,27 +511,27 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
+          "/DDR/VREFDDR",
           "/IMX6ULL Power/NVCC_PLL_OUT",
           "/IMX6ULL Power/VDD_ARM_CAP",
           "/IMX6ULL Power/VDD_SNVS_CAP",
           "/IMX6ULL Power/VDD_SOC_CAP",
           "/Power/DCDC_3V3_R",
           "/Power/DDR_1V35_R",
-          "/Power/LDO_1V8_R",
-          "/Power/LDO_3V3_R",
           "/Power/SD_3V3_1V8_R",
           "/Power/VDD_ARM_SOC_IN_R",
           "/Power/VDD_SNVS_3V3",
-          "/Storage/VDDI",
           "/USB/VBUS_1",
+          "/USB/VDD_USB_CAP",
+          "/VIN/VBUS_VIN_R",
           "DCDC_3V3",
           "DDR_1V35",
           "GND",
-          "LDO_1V8",
-          "LDO_3V3",
           "SD_3V3_1V8",
+          "SNVS_3V3",
           "VDD_ARM_SOC_IN",
           "VDD_HIGH_CAP",
+          "VDD_SNVS_3V3",
           "VSYS_5V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
