@@ -60,7 +60,22 @@
           "width": 0.11049
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|185060001|101280001|1075a38a-a37b-4ed4-a674-b7c86a1423f7|3ee6cc4d-2b5e-4e07-a07e-a1f8d686bace",
+        "courtyards_overlap|188259999|107280001|010ada80-091b-446f-8d6d-e25a4506e477|ed2cb78b-6945-42b5-a003-878affacbfe6",
+        "courtyards_overlap|188949999|101509999|7c3b3baa-5431-41a4-9396-c0b42554dd70|d8def21e-68b8-49ad-94ec-4b7227437a5b",
+        "silk_over_copper|155310000|145000000|6856aa2c-c85c-49f6-95f4-7081f75bc2f3|edba1818-cc99-4ff0-a54f-5d57593d36e7",
+        "silk_over_copper|164710000|145000000|6856aa2c-c85c-49f6-95f4-7081f75bc2f3|1b2f7cb5-bd7f-4b82-ad0b-285c5ceda910",
+        "silk_over_copper|175610000|145000000|6856aa2c-c85c-49f6-95f4-7081f75bc2f3|6f0df257-d96f-4251-9399-4aca18eb96c9",
+        "silk_over_copper|182810000|145000000|6856aa2c-c85c-49f6-95f4-7081f75bc2f3|6c51e7af-cfc1-4374-b41f-7a8f1fc67fdf",
+        "silk_over_copper|182810000|145080000|6856aa2c-c85c-49f6-95f4-7081f75bc2f3|0a706747-28f7-45f7-b6cf-c5990cab7ded",
+        "silk_over_copper|185810000|145000000|6856aa2c-c85c-49f6-95f4-7081f75bc2f3|6c7c257c-43ea-4df0-bd5e-2ec621e622d0",
+        "silk_over_copper|195210000|145000000|6856aa2c-c85c-49f6-95f4-7081f75bc2f3|3f861f37-3f83-426f-81d1-66b9de34eaa5",
+        "silk_over_copper|199340000|131050000|cbceb0f9-43c2-40a6-befa-14c44cd13542|92aebe71-ccbe-4405-8ef2-2d5380cfebad",
+        "silk_over_copper|215340000|131050000|6868a08d-76d1-4873-9d4b-45a2f323718e|274630a0-48d8-45c8-9a3e-4119cff82111",
+        "silk_overlap|166270000|66085000|49978399-f2ee-4152-8c3e-fd9cdde9a9d9|5a0be1f2-7de1-476f-95d7-6e9f07bfaab4",
+        "silk_overlap|166270000|72085000|49978399-f2ee-4152-8c3e-fd9cdde9a9d9|b28bfb24-e827-47b2-a381-030870dbe1fb"
+      ],
       "meta": {
         "version": 2
       },
@@ -134,6 +149,7 @@
         0.4,
         0.5,
         0.8,
+        0.9,
         1.0,
         1.5,
         2.0,
@@ -143,10 +159,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.4,
-          "drill": 0.2
         },
         {
           "diameter": 0.45,
@@ -512,25 +524,23 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "/DDR/VREFDDR",
           "/IMX6ULL Power/NVCC_PLL_OUT",
           "/IMX6ULL Power/VDD_ARM_CAP",
           "/IMX6ULL Power/VDD_SNVS_CAP",
           "/IMX6ULL Power/VDD_SOC_CAP",
-          "/Power/DCDC_3V3_R",
-          "/Power/DDR_1V35_R",
-          "/Power/SD_3V3_1V8_R",
-          "/Power/VDD_ARM_SOC_IN_R",
+          "/Power/LDO1_1V8",
+          "/Power/VSYS",
+          "/SNVS_3V3",
           "/USB/VBUS_1",
           "/USB/VDD_USB_CAP",
           "DCDC_3V3",
           "DDR_1V35",
+          "DDR_VREF",
           "GND",
+          "LDO2_3V3",
           "SD_3V3_1V8",
-          "SNVS_3V3",
           "VDD_ARM_SOC_IN",
           "VDD_HIGH_CAP",
-          "VDD_SNVS_3V3",
           "VSYS_5V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
