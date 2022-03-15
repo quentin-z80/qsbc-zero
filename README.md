@@ -1,5 +1,7 @@
 # qsbc-zero
 
+## About
+
 Specs:
 
 - i.MX6ULL ARM Cortex-A7
@@ -14,3 +16,19 @@ Specs:
 
 ![](img/qsbc-zero_top.png)
 ![](img/qsbc-zero_bottom.png)
+
+
+## TODO
+
+### Rev 1.1
+- R2 and R5 PN is wrong
+- Some Ratings do not match PNs
+- Move USB Type-A connector, so lip does not hit board
+
+### Rev 2
+- Use interrupt for ETH PHY
+- Fix LED order on PCB
+- Swap USB-A and USB-C data port
+
+### Linux
+- Port PF1510 Driver
