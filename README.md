@@ -6,7 +6,7 @@ Specs:
 
 - i.MX6ULL ARM Cortex-A7
 - 512MB DDR3L
-- 64MB QSPI Flash
+- 4MB QSPI Flash
 - MicroSD card slot
 - USB Type-C DRP and USB Type-A port
 - 10/100M Ethernet
@@ -20,15 +20,18 @@ Specs:
 
 ## TODO
 
-### Rev 1.1
+### Rev 2
+- Change QSPI flash PN to W25Q32JVZPIQ
+- Optimize BOM
 - R2 and R5 PN is wrong
 - Some Ratings do not match PNs
 - Move USB Type-A connector, so lip does not hit board
-
-### Rev 2
 - Use interrupt for ETH PHY
 - Fix LED order on PCB
-- Swap USB-A and USB-C data port
+- Swap USB-A and USB-C Locations
 
 ### Linux
-- Port PF1510 Driver
+- Port PF1510 driver
+
+### U-Boot
+- Fix Ethernet
