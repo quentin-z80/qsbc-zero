@@ -32,6 +32,3 @@ Specs:
 
 ### Linux
 - Port PF1510 driver
-
-### U-Boot
-- Fix Ethernet
