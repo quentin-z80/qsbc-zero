@@ -73,7 +73,7 @@ Specs:
 
         in screen hit `Ctrl-A` followed by `:`
 
-            exec !! sx /path/to/qspi-header/qspi-config.bin
+            exec !! sx /path/to/u-boot/u-boot-dtb.imx
 
             sf write $loadaddr 0x1000 $filesize
 
