@@ -36,3 +36,6 @@ bom
 
 # gerbers
 gerbers
+
+# tools
+tools/qspi-header/*.bin
