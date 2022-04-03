@@ -90,14 +90,8 @@ Specs:
 
 ## TODO
 
-### Rev 2
-- Change QSPI flash PN to W25Q32JVZPIQ
-- Optimize BOM
-- R2 and R5 PN is wrong
-- Some Ratings do not match PNs
-- Move USB Type-A connector, so lip does not hit board
+### Rev 3
 - Use interrupt for ETH PHY
-- Fix LED order on PCB
 - Swap USB-A and USB-C Locations
 
 ### Linux
