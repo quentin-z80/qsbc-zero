@@ -14,6 +14,8 @@ Specs:
 - PF1510 PMIC
 - USB Type-C Power in
 
+Manufactured using JLCPCB's JLC3313 stackup
+
 ![](img/qsbc-zero_top.png)
 ![](img/qsbc-zero_bottom.png)
 
