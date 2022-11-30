@@ -14,7 +14,7 @@ Specs:
 - PF1510 PMIC
 - USB Type-C Power in
 
-Manufactured using JLCPCB's JLC3313 stackup
+Manufactured using JLCPCB's JLC2116 stackup
 
 ![](img/qsbc-zero_top.png)
 ![](img/qsbc-zero_bottom.png)
@@ -95,6 +95,7 @@ Manufactured using JLCPCB's JLC3313 stackup
 ### Rev 3
 - Use interrupt for ETH PHY
 - Swap USB-A and USB-C Locations
+- Change SOC power tracks to zones
 
 ### Linux
 - Port PF1510 driver
