@@ -16,6 +16,7 @@ Specs:
 
 Manufactured using JLCPCB's JLC2116 stackup
 
+![](img/qsbc-zero_top_blank.png)
 ![](img/qsbc-zero_top.png)
 ![](img/qsbc-zero_bottom.png)
 
